@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61980" started-at="2020-05-15T21:07:07 IST" finished-at="2020-05-15T21:08:09 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61980" started-at="2020-05-15T21:07:07 IST" finished-at="2020-05-15T21:08:09 IST">
+      <class name="Academy.SearchBar">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String)[pri:0, instance:Academy.SearchBar@a7e666]" name="basePageNavigation" duration-ms="18961" started-at="2020-05-15T21:07:07 IST" data-provider="Searchdata" finished-at="2020-05-15T21:07:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String)[pri:0, instance:Academy.SearchBar@a7e666]" name="basePageNavigation" duration-ms="18015" started-at="2020-05-15T21:07:26 IST" data-provider="Searchdata" finished-at="2020-05-15T21:07:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String)[pri:0, instance:Academy.SearchBar@a7e666]" name="basePageNavigation" duration-ms="24945" started-at="2020-05-15T21:07:44 IST" data-provider="Searchdata" finished-at="2020-05-15T21:08:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.SearchBar -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

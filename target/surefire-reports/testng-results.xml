@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43694" started-at="2020-05-16T12:29:11 IST" finished-at="2020-05-16T12:29:55 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43694" started-at="2020-05-16T12:29:11 IST" finished-at="2020-05-16T12:29:55 IST">
+      <class name="Academy.SearchBar">
+        <test-method status="PASS" signature="Search(java.lang.String)[pri:0, instance:Academy.SearchBar@490ab905]" name="Search" duration-ms="19304" started-at="2020-05-16T12:29:11 IST" data-provider="Searchdata" finished-at="2020-05-16T12:29:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="Search(java.lang.String)[pri:0, instance:Academy.SearchBar@490ab905]" name="Search" duration-ms="11950" started-at="2020-05-16T12:29:30 IST" data-provider="Searchdata" finished-at="2020-05-16T12:29:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Book]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="Search(java.lang.String)[pri:0, instance:Academy.SearchBar@490ab905]" name="Search" duration-ms="12383" started-at="2020-05-16T12:29:42 IST" data-provider="Searchdata" finished-at="2020-05-16T12:29:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+      </class> <!-- Academy.SearchBar -->
+      <class name="Academy.HomePageTest">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.HomePageTest@56ac3a89]" name="basePageNavigation" duration-ms="18322" started-at="2020-05-16T12:29:11 IST" finished-at="2020-05-16T12:29:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
